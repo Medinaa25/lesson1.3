@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="marginTop">36dp</dimen>
+    <dimen name="marginHorizontal">16dp</dimen>
+    <dimen name="paddingEnd">60dp</dimen>
+    <dimen name="mTop">52dp</dimen>
+    <dimen name="paddingVertical">12dp</dimen>
+    <dimen name="textSize">20sp</dimen>
+</resources>

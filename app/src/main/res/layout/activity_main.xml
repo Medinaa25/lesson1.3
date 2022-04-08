@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_marginTop="@dimen/marginTop"
+        android:layout_marginHorizontal="@dimen/marginHorizontal"
+        android:paddingEnd="@dimen/paddingEnd"
+        style="@style/Base.EditText"
+        android:paddingStart="@dimen/marginHorizontal"
+        android:drawableStart="@drawable/ic_email"
+        android:hint="@string/email" />
+
+    <EditText
+        android:id="@+id/theme"
+        android:layout_marginHorizontal="@dimen/marginHorizontal"
+        android:paddingEnd="@dimen/paddingEnd"
+        android:hint="@string/theme"
+        style="@style/Base.EditText"
+        android:drawableStart="@drawable/ic_password"/>
+
+    <EditText
+        android:id="@+id/message"
+        style="@style/Base.EditText"
+        android:drawableStart="@drawable/ic_message"
+        android:hint="@string/message"
+        android:paddingEnd="@dimen/paddingEnd"
+        android:layout_marginHorizontal="@dimen/marginHorizontal"/>
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/marginHorizontal"
+        android:layout_marginTop="@dimen/mTop"
+        android:paddingVertical="@dimen/paddingVertical"
+        android:text="@string/send"
+        android:textSize="@dimen/textSize" />
+
+
+</LinearLayout>
